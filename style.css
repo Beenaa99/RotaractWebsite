@@ -6,7 +6,10 @@ html,body{
   width: 100%;
   font-family: 'Poppins',sans-serif;
   color: #222;  
+  
   }
+
+  
   
 #logo{
   height: 200px;
@@ -15,21 +18,41 @@ html,body{
     padding: 0.8rem;
   }
 .navbar-nav li{
-  padding-right: 1.3rem;
+  padding-right: 1.0rem;
+  padding-left: 1.0rem;
 }
 .team img{
-  height: 350px;
+  height: 280px;
 }
 .president img{
-  height: 400px;
+  height: 350px;
   float: right;
   margin-right: 20px;
+  padding-left: 20px;
+  
+}
+.president{
+  padding-left: 45px;
+  
+}
+.president:hover{
+  color: black;
+  cursor: pointer;
+}
+.card-body:hover{
+  background-color: #6ba4e0;
+  color: black;
 }
 .team img{
   padding: 40px;
 }
 .navlink{
   font-size: 1.1em !important;
+  
+}
+.jumbotron{
+  height: 170px;
+  
 }
 .carousel-inner img{
   width: 100%;
@@ -46,10 +69,10 @@ html,body{
   padding: 3rem;
 }
 
-.icon
-{
+.nav-item .active{
+  background-color: whitesmoke !important;
+  color: #007bff !important;
 }
-
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -109,9 +132,13 @@ figure {
   width: 100%;
   height: auto;
 }
+.president{
+  justify-content: space-around;
+}
 
-
-
+.card{
+  border: 2px #007bff;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
