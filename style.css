@@ -10,7 +10,15 @@ html,body{
   }
 
   
-  
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  border-color: rgb(255,255,255);
+} 
+.cardP{
+  justify-content: center;
+}
 #logo{
   height: 200px;
 }
@@ -21,11 +29,16 @@ html,body{
   padding-right: 1.0rem;
   padding-left: 1.0rem;
 }
+.nav-item .active{
+  background-color: whitesmoke !important;
+  color: #007bff !important;
+}
+
 .team img{
   height: 280px;
 }
 .president img{
-  height: 350px;
+  height: 300px;
   float: right;
   margin-right: 20px;
   padding-left: 20px;
@@ -34,6 +47,9 @@ html,body{
 .president{
   padding-left: 45px;
   
+}
+.card-body{
+  padding: 2rem;
 }
 .president:hover{
   color: black;
@@ -44,7 +60,7 @@ html,body{
   color: black;
 }
 .team img{
-  padding: 40px;
+  padding: 35px;
 }
 .navlink{
   font-size: 1.1em !important;
@@ -69,20 +85,27 @@ html,body{
   padding: 3rem;
 }
 
-.nav-item .active{
-  background-color: whitesmoke !important;
-  color: #007bff !important;
-}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+.president{
+  justify-content: center;
+}
   }
 @media (max-width: 768px) {
-  
+  .president{
+    justify-content: center;
+  }
+    }
 }
 @media (max-width: 576px) {
-  
+  .pressHead  {
+    font-size: 25px;
+  }
+  .president{
+    padding-left: 20px;
+    
+  }
 }
 
 
