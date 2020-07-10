@@ -31,7 +31,7 @@ html,body{
 }
 .nav-item .active{
   background-color: whitesmoke !important;
-  color: #007bff !important;
+  color: #343a40 !important;
 }
 
 .team img{
@@ -42,6 +42,7 @@ html,body{
   float: right;
   margin-right: 20px;
   padding-left: 20px;
+  justify-content: space-between; 
   
 }
 .president{
@@ -53,12 +54,13 @@ html,body{
 }
 .president:hover{
   color: black;
-  cursor: pointer;
+  cursor: auto;
 }
+/*
 .card-body:hover{
   background-color: #6ba4e0;
   color: black;
-}
+}*/
 .team img{
   padding: 35px;
 }
