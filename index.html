@@ -3,45 +3,61 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Complete Bootstrap 4 Website Layout</title>
+	<title>RCMMS</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://kit.fontawesome.com/9bd347ef70.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpeg" href="img/iconnn.jpeg">
+
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- Navigation -->
-
-<nav class=" navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-md navbar-expand-sm bg-dark text-white justify-content-center">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="logo img-fluid"></a>
+		<div class="logo col-lg-4  p-2">
+			<img src="img/logo_w.png" class="img-fluid" alt="Responsive image">
+		  </div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto ">
+		<div class="collapse navbar-collapse nav-pills" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link text-white active" href="#">Home</a>
+				</li>
+				
+				
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Projects
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					  <a class="dropdown-item" href="CommServ.html">Community Service</a>
+					  <a class="dropdown-item" href="Is.html">International Service</a>
+					  <a class="dropdown-item" href="ClubService.html">Club Service</a>
+					  <a class="dropdown-item" href="Editorials.html">Editorials</a>
+					  <a class="dropdown-item" href="Sports.html">Sports</a>
+					  <a class="dropdown-item" href="Pd.html">Professional Development</a>
+					</div>
+				  </li>
 				<li class="nav-item">
-					<a class="nav-link active" href="#">Home</a>
+					<a class="nav-link text-white" href="BOD.html">Team</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Team</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact Us</a>
+					<a class="nav-link text-white" href="contact.html">Contact Us</a>
 				</li> 
 			</ul>
 		</div>
 	</div>
 </nav>
+
+
+
 
 	
 		<!--- Image Slider 
@@ -84,7 +100,6 @@
 	</a>
   </div>
 -->
-
 <div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 		<li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -93,76 +108,120 @@
 	</ul>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="img/back.jpeg" class="img-fluid" alt="">
+			<img src="img/img21.jpg"class="img-fluid" alt="">
 			<div class="carousel-caption">
 				<h1 class="display-2"><strong>word</strong></h1>
-				<h3>a short which describes that word</h3>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="img/back.jpeg" class="img-fluid" alt="">
+			<img src="img/back.jpeg"class="img-fluid" alt="">
 		</div>
 		<div class="carousel-item">
-			<img src="img/back.jpeg" class="img-fluid" alt="">
+			<img src="img/umeed.jpg" class="img-fluid" alt="">
 		</div>
 	</div>
-</div>
+	</div>
 
 
 
   
-<!--- Jumbotron -->
-<div class="container-fluid">
-	<div class="row jumbotron">
-		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<p >
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt exercitationem hic voluptate. Sunt, recusandae harum iste ipsa mollitia quisquam, vero possimus dolore quam praesentium veritatis velit culpa quas illo.
-			</p>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-			<button class="btn btn-outline-secondary btn-lg">Join Now</button>
-		</div>
-	</div>
-</div>
-
-<!--- Welcome Section -->
-<div class="container padding">
-	<div class="row welcome text-center">
-		<div class="col-12">
-			<h1 class="display-4">About RCMMS</h1>
-		</div>
-		<hr>
-		<div class="col-12">
-			<p class="lead">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quis iure exercitationem repellendus dolore temporibus maxime vitae excepturi iste ipsa ratione aliquid cumque aperiam magni possimus architecto, earum perspiciatis est debitis numquam esse officiis praesentium nisi! Illum, consectetur? Necessitatibus, iste tempore. Quibusdam, dolores delectus odio ipsam facere consequatur mollitia quaerat?
-			</p>
+	<!--- Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class=lead>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt exercitationem hic voluptate. Sunt, recusandae harum iste ipsa mollitia quisquam, vero possimus dolore quam praesentium veritatis velit culpa quas illo.
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<button class="btn btn-outline-secondary btn-lg">Join Now</button>
+			</div>
 		</div>
 	</div>
-</div>
-<!--- Footer -->
 
-
-<div class="container-fluid padding bg-dark text-white">
-	<div class="row text-center padding">
-		<div class="col-12">
-			<h2>Connect</h2>
-			<hr>
-		</div>
-		<div class="col-12 social padding">
-			<a href="#"><img src="img/fb.png" class="icon img-fluid" alt=""> </a>
-			<a href="#"><i class="fab fa-twitter"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-youtube"></i></a>	
-		</div>
-
-	</div>
 	
+	<!--- Welcome Section -->
+		<div class="container padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">About RCMMS</h1>
+				</div>
+				<hr>
+				<div class="col-12">
+					<p class="lead">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quis iure exercitationem repellendus dolore temporibus maxime vitae excepturi iste ipsa ratione aliquid cumque aperiam magni possimus architecto, earum perspiciatis est debitis numquam esse officiis praesentium nisi! Illum, consectetur? Necessitatibus, iste tempore. Quibusdam, dolores delectus odio ipsam facere consequatur mollitia quaerat?
+					</p>
+				</div>
+			</div>
+		</div>
+		<hr class="my-4">
+		
+<div class="three container-fluid padding">
+	<div class="row text-center padding"> 
+		<div class="col-xs-12 col-sm-6 col-md-4">
+
+			<img src="img/network.png" alt="">
+			<br>
+			<br><br>
+			<h3>Network</h3>
+			<p>Lorem ipsum dolor sit amet consectetur.
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img src="img/empathy.png" alt="">
+			<br>
+			<br><br>
+			<h3>Empathy</h3>
+			<p>Lorem ipsum dolor sit amet consectetur.
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img src="img/teamwork.png" alt="">
+			<br>
+			<br><br>
+			<h3>Teamwork</h3>
+			<p>Lorem ipsum dolor sit amet consectetur.
+			</p>
+		</div>
+
+	</div>
+	<hr class="my-4">
 </div>
 
-
-
-</body>
-</html>
+	<!-- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+	
+			<div class="icons text-center padding">
+				<div>
+				<br>
+				<br>
+				<h1>
+					CONNECT
+				</h1>
+				<br>
+				</div>
+				<a href="https://www.facebook.com/RCMMS3141/"><i class="fab fa-facebook fa-3x"></i></a>
+				<a href="https://www.youtube.com/channel/UCXynv_B6tndJItcbvCUiRXA"><i class="fab fa-youtube fa-3x"></i></a>
+				<a href="https://www.instagram.com/rcmms/?hl=en"><i class="fab fa-instagram fa-3x"></i></a>
+				<a href="https://twitter.com/rcmms?lang=en"><i class="fab fa-twitter fa-3x"></i></a>
+				<a href=""><i class="fab fa-google-plus-g fa-3x"></i></a>
+			
+			</div>
+		</div>
+	 
+	
+		<!-- Copyright -->
+		<div class="flat text-center">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	<div class="footer-copyright text-center text-light py-3">© 2020 Copyright:
+		<a href="https://mdbootstrap.com/"> RCMMS.com</a>
+	</div>
+	<!-- Copyright -->
+	</footer>
+	<!-- Footer -->				
+	
+	</body>
+	</html>
 
 
 

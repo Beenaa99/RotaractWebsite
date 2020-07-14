@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 html,body{
   height: 100%;
   width: 100%;
   font-family: 'Poppins',sans-serif;
   color: #222;  
-  
   }
 
   
@@ -19,9 +24,7 @@ html,body{
 .cardP{
   justify-content: center;
 }
-#logo{
-  height: 200px;
-}
+
   .navbar{
     padding: 0.8rem;
   }
@@ -33,6 +36,51 @@ html,body{
   background-color: whitesmoke !important;
   color: #343a40 !important;
 }
+.nav-item:hover{
+  text-decoration:underline;
+  font-size: 1.1rem;
+}
+.dropdown-item:hover{
+  background-color:black;
+  color: whitesmoke;
+  
+}
+
+
+#facilities{
+  background-color: #dbdbdb;
+  padding: 30px 0px;
+}
+
+.title{
+text-align: center;
+padding: 20px 0px;
+color: #3f3f3f;
+}
+
+.card-body a{
+  margin-top: auto;
+}
+.card{
+  margin: 20px 10px;
+}
+
+.col-lg-6 img{
+padding-top: 20px;
+padding-bottom: 20px; 
+}
+.col-lg-6 h1{
+padding-top: 20px;
+}
+
+.card text-center img {
+background:linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.884));
+
+}
+
+
+
+
 
 .team img{
   height: 280px;
@@ -68,10 +116,6 @@ html,body{
   font-size: 1.1em !important;
   
 }
-.jumbotron{
-  height: 170px;
-  
-}
 .carousel-inner img{
   width: 100%;
   height: 7%;
@@ -82,10 +126,7 @@ html,body{
   background:linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.884));
   z-index: 5;
 }
-.social a{
-  font-size: 4.5em;
-  padding: 3rem;
-}
+
 
 
 /*---Media Queries --*/
@@ -153,10 +194,7 @@ figure {
     padding: 1rem;
 }
 
-.logo {
-  width: 100%;
-  height: auto;
-}
+
 .president{
   justify-content: space-around;
 }
@@ -181,10 +219,49 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+.three img{
 
+  height: 10rem;
+  width: 10rem;
+}
 
+.icons a{
+  margin: 1.5vw;
+  color: white;
+  text-decoration: none;
+  font-size: 2.5vw;
+  display: inline-block;
+  padding: 1vw;
+}
+.icons .fab{
+  line-height: 2rem;
+  transition: .5s;
+}
+.icons  a:hover {
+transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.fa-facebook:hover {
+color: #3b5999;
 
+}
+.fa-youtube:hover {
+color: #FF0000;
+}
+.fa-instagram:hover {
+color: #e4405f;
+}
+.fa-twitter:hover {
+color: #00aced;
+}
+.fa-google-plus-g:hover {
+color: #d34836;
+}
 
+footer {
+  background-color: #343a40;
+  color: white;
+  
+}
 
 
 
