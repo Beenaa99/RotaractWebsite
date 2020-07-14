@@ -35,4 +35,4 @@ For major changes, please open an issue first to discuss what you would like to 
 ## Authors
   - **Beenaa Salian** : *Team Page, Responsive Modulations*-  [Beenaa99](https://github.com/Beenaa99)
   - **Rujuta Tambewagh**  : *Projects, Homepage Designing* - [Rujuta99](https://github.com/Rujuta99)
-  - **Omkar Narvade**  : *Homepage, Form Response - [Omkar](https://github.com/1483369)
+  - **Omkar Narvade**  : *Homepage, Form Response* - [Omkar](https://github.com/1483369)
