@@ -45,6 +45,13 @@ html,body{
   color: whitesmoke;
   
 }
+.btn-nav:hover{
+  color: rgb(0, 0, 0);
+}
+.btn-nav{
+  color: antiquewhite; 
+  font-size: inherit;
+}
 
 
 #facilities{
@@ -78,7 +85,12 @@ background:linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.884));
 
 }
 
-
+.jumbotron {
+  padding: 0.3rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
 
 
 
@@ -149,6 +161,8 @@ background:linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.884));
     padding-left: 20px;
     
   }
+  
+  
 }
 
 
@@ -201,6 +215,10 @@ figure {
 
 .card{
   border: 2px #007bff;
+}
+.freepik{
+  font-size: 15px;
+  color: #949393;
 }
 
 /*

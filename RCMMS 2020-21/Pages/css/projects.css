@@ -78,15 +78,15 @@ background:linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.884));
 
 
 
+  .icons a{
+      margin: 1.5vw;
+      color: white;
+      text-decoration: none;
+      font-size: 2vw;
+      display: inline-block;
+      padding: 1vw;
+    }
 
-.icons a{
-    margin: 1.5vw;
-    color: white;
-    text-decoration: none;
-    font-size: 2.5vw;
-    display: inline-block;
-    padding: 1vw;
-  }
   .icons .fab{
     line-height: 2rem;
     transition: .5s;
@@ -116,4 +116,34 @@ background:linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.884));
     color: white;
     
   }
+
+  @media (max-width: 992px) {
+    .icons a{
+      margin: 1.5vw;
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+      display: inline-block;
+      padding: 1vw;
+    }
+    @media (max-width: 768px) {
+      .icons a{
+        margin: 1.5vw;
+        color: white;
+        text-decoration: none;
+        font-size: 1.8rem;
+        display: inline-block;
+        padding: 1vw;
+      }
+    }
+    @media (max-width: 576px) {
+      .icons a{
+        margin: 1;
+        color: white;
+        text-decoration: none;
+        font-size: 1.6rem;
+        display: inline-block;
+        padding: 1vw;
+      }
+    }
   
